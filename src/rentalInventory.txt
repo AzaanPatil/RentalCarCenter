@@ -1,0 +1,11 @@
+Volvo, XC90, 150, 32
+Ford, F150, 200, 20, 1700
+Ford, Explorer, 200, 27
+Toyota, Corolla, 100, 33
+Honda, Accord, 150, 37
+Jaguar, F Type, 400, 18
+Chevy, Corvette, 450, 26
+Honda, Ridgeline, 200, 16
+Chevy, Silverado 1500, 300, 18
+RAM, TRX, 500, 18
+Ford, F350, 400, 18
