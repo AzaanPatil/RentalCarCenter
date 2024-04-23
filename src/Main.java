@@ -7,7 +7,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         RentalCenter rentalCenter = new RentalCenter("C:\\Users\\azaan\\IdeaProjects\\RentlCarCompSci\\src\\rentalInventory.txt");
 
-        System.out.println("Welcome to University Car Rentals!");
+        System.out.println("Welcome to firstRent Car Rentals!");
 
         while (true) {
             System.out.println("1: Rent Car");

@@ -36,10 +36,6 @@ public class RentalCenter implements Rentable {
             System.out.println("Invalid choice.");
             return;
         }
-        if (rentedCars.size() >= 7) {
-            System.out.println("You have reached your renting limit");
-            return;
-        }
         Vehicle vehicle = rentedCars.remove(index);
         inventory.add(vehicle);
         System.out.println("Vehicle returned: " + vehicle);
@@ -76,9 +72,10 @@ public class RentalCenter implements Rentable {
         if (rentedCars.isEmpty()) {
             System.out.println("You haven't rented any cars yet");
         } else {
-            for (int i = 0; i < 7; i++) {
+            for (int i = 0; i < rentedCars.size(); i++) {
                 System.out.println(i + ": " + rentedCars.get(i));
             }
         }
     }
 }
+
