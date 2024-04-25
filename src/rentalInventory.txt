@@ -1,5 +1,5 @@
 Volvo, XC90, 150, 32
-Ford, F150, 200, 20, 1700
+Ford, F150, 200, 20
 Ford, Explorer, 200, 27
 Toyota, Corolla, 100, 33
 Honda, Accord, 150, 37
