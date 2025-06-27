@@ -11,6 +11,6 @@ public class Car extends Vehicle {
     @Override
     public String toString() {
         // Format the car details into a string
-        return brand + " " + model + ", Cost: $" + rate + " per day, Fuel Economy: " + gasMileage + " miles";
+        return brand + " " + model + ", Cost: $" + rate + " per day, Gas Mileage: " + gasMileage + " MPG";
     }
 }
